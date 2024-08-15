@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <input class="front-control" type="text" value="0" name="" id="result">
+        <br>
+        <button id="seven" onclick="display(7)">7</button>
+        <button onclick="display(8)">8</button>
+        <button onclick="display(9)">9</button>
+        <button onclick="display('*')">&#215</button>
+        <br>
+        <button onclick="display(4)">4</button>
+        <button onclick="display(5)">5</button>
+        <button onclick="display(6)">6</button>
+        <button onclick="display('-')">-</button>
+        <br>
+        <button onclick="display(1)">1</button>
+        <button onclick="display(2)">2</button>
+        <button onclick="display(3)">3</button>
+        <button onclick="display('+')">+</button>
+        <br>
+        <button onclick="display('00')">00</button>
+        <button onclick="display(0)">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="display('/')">&#247</button>
+        <br>
+        <button onclick="clearResult('ac')">ac</button>
+        <button onclick="del('del')">&#9003</button>
+        <button class="orange" onclick="equal('=')">=</button>
+    </div>
+</center>
+    <script src="./cal.js"></script>
+    <!-- <script>
+        
+        function display(num) {
+            result.value+=num
+            
+                    }
+
+   
+    </script> -->
+    
+</body>
+</html>
